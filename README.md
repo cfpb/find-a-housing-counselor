@@ -12,7 +12,7 @@ Screenshot
 
 Requirements
 -------
-- [CFPB's Django HUD API](https://github.com/cfpb/django_hud) must be installed in a location where the Javascript can access it via an AJAX call.
+- [CFPB's Django HUD API](https://github.com/cfpb/django-hud) must be installed in a location where the Javascript can access it via an AJAX call.
 - [jQuery](http://jquery.com/)
 - The "Find a Housing Counselor" Front End uses the [Google Maps API](https://developers.google.com/maps/) to generate an interactive map. However, this feature could be removed without affecting the results. At this time, the code does not contain a setting or option to disable or remove the Google Maps API components.
 
