@@ -3,7 +3,7 @@ Find a Housing Counselor
 
 The "Find a Housing Counselor" Front End allows users to find the 10 closest HUD-approved housing counselors by the centroid of a ZIP code. They can print those based on the results on the web page.
 
-The front end of the application is powered by Javascript (including jQuery), and relies on the _INTERNAL API_ to return the results (in JSON) based on the zip code entered in the front end.
+The front end of the application is powered by Javascript (including jQuery), and relies on [CFPB's Django HUD API](https://github.com/cfpb/django-hud) to return the results (in JSON) based on the zip code entered in the front end.
 
 Screenshot
 -------
